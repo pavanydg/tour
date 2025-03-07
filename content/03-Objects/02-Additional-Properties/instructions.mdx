@@ -1,15 +1,14 @@
 ---
 title: Additional Properties
-description: Handle additional properties of an object in JSON Schema.
-keywords: additional properties, object, JSON Schema, properties, type, properties, required, properties, object
+description: "Learn how to handle additional properties in JSON Schema using the additionalProperties keyword, including disallowing extra properties and defining schemas for them."
+keywords: "additional properties, object, JSON Schema, properties, type, required, patternProperties, schema, keyword"
 ---
-
 
 # Additional Properties
 
 In the previous lesson, we have set `additionalProperties` to `false`. What does it mean? 
 
-So far, we have seen how to define the properties of an object in a [schema](https://json-schema.org/learn/glossary#schema). But **what if you want to specify constrains for the properties which you have not defined in the schema?**
+So far, we have seen how to define the properties of an object in a [schema](https://json-schema.org/learn/glossary#schema). But **what if you want to specify constraints for the properties which you have not defined in the schema?**
 
 The `additionalProperties` [keyword](https://json-schema.org/learn/glossary#keyword) is used to control the handling of extra stuff, that is, properties whose names are not listed in the `properties` keyword or match any of the regular expressions in the `patternProperties` keyword. 
 
